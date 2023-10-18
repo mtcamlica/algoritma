@@ -1,0 +1,30 @@
+[22,27,16,2,18,6] -> Instertion Sort
+
+Dizinin 2. elemanı seçilir, 27
+22 ile 27 kıyaslanır. Büyük. Dizi sabit kalır. [22,27,16,2,18,6]
+Dizinin 3. elemanına geçilir, 16
+22 ile 16 kıyaslanır. Küçük. 16 en başa gelir. [16,22,27,2,18,6]
+Dizinin 4. elemanına geçilir, 2
+16 ile 2 kıyaslanır. Küçük. 2 en başa gelir. [2,16,22,27,18,6]
+Dizinin 5. elemanına geçilir, 18
+18 solundaki 2,16,22,27 ile kontrol edilir ve yerine yerleşir. [2,9,16,22,27,6]
+Dizinin 6. elemanına geçilir, 6
+Kontrol edilir, <27,<22,<16,<9 ve >2 bu yüzden yerleşir. Yeni sıralama [2,6,9,16,22,27]
+
+Big-O = O(n^2) dir.
+
+18 sayısı Average case sınıfına girer.
+
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+İndis 0 yani ilk eleman 7, en küçük değer kabul edilir.
+
+1. Adım = > [3,7,5,8,2,9,4,15,6]
+2. Adım = > [2,7,5,8,3,9,4,15,6]
+3. Adım = > [2,5,7,8,3,9,4,15,6]
+4. Adım = > [2,3,7,8,5,9,4,15,6]
+5. Adım = > [2,3,5,8,7,9,4,15,6]
+6. Adım = > [2,3,4,8,7,9,5,15,6]
+
+

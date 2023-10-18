@@ -1,2 +1,0 @@
-# algoritma
-Search'ler
